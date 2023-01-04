@@ -1,20 +1,3 @@
-
-lexiscode
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x07-pointers_arrays_strings/3-strspn.c
-@lexiscode
-lexiscode Added more tasks
- 1 contributor
-35 lines (32 sloc)  512 Bytes
 /**
  * _strspn - a function that gets the
  *           length of a prexif substring
