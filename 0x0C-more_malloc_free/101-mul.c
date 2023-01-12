@@ -1,20 +1,3 @@
-
-lexiscode
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
-@lexiscode
-lexiscode Tasks on more malloc
- 1 contributor
-134 lines (114 sloc)  2.09 KB
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
