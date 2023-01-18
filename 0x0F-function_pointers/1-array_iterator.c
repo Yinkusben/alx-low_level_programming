@@ -1,26 +1,21 @@
-#include "funcrion_pointers.h"
+#include <stddef.h>
 
 /**
- * array_iterator - A funtion that executes a funcrion
- * given as a parameter on each element of an array
+ * array_iterator - a function that executes a given function
+ *                  as a parameter on each element of an array
  *
- * @array: The array to iterate
- * @size: The size of the array
- * @action: The funtion to execute over each element
+ * @array: array to iterate
+ * @size: size of array
+ * @action: pointer to function to call
  *
- * Return: Nothing
- */
+ * Return: empty if @array and @action is NULL
+*/
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i;
+	unsigned int index;
 
 	if (array != NULL && size > 0 && action != NULL)
-	{
-		while (i < size)
-		{
-			(*action)(array[i]);
-			i++;
-		}
-	}
+		for (index = 0; index < size; index++)
+			action(array[index]);
 }
