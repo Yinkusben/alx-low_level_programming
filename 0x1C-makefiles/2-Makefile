@@ -6,7 +6,7 @@ NAME=school
 
 all: $(NAME)
 
-$(NAME): $(OBJ) m.h
+$(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 school.o: school.c m.h
